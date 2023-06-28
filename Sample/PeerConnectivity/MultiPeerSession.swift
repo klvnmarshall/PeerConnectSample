@@ -30,7 +30,7 @@ class MultiPeerSession: NSObject, ObservableObject {
     @Published var paired: Bool = false
     @Published var invitationHandler: ((Bool, MCSession?) -> Void)?
     
-    private var serviceType = "sample-service"
+    private var serviceType = "sampleservice"
     private var myPeerID: MCPeerID
     
     let serviceAdvertiser: MCNearbyServiceAdvertiser

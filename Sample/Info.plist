@@ -6,8 +6,8 @@
 	<string>Allow the avi pro app to sync data between two paired devices</string>
 	<key>NSBonjourServices</key>
 	<array>
-		<string>sample-service.tcp</string>
-		<string>sample-service.udp</string>
+		<string>_sampleservice._tcp</string>
+		<string>_sampleservice._udp</string>
 	</array>
 </dict>
 </plist>
